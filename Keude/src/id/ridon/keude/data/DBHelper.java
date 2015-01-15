@@ -193,42 +193,12 @@ public class DBHelper extends SQLiteOpenHelper {
 
         insertRepo(
             db,
-            context.getString(R.string.fdroid_repo_name),
-            context.getString(R.string.fdroid_repo_address),
-            context.getString(R.string.fdroid_repo_description),
-            context.getString(R.string.fdroid_repo_pubkey),
-            context.getResources().getInteger(R.integer.fdroid_repo_inuse),
-            context.getResources().getInteger(R.integer.fdroid_repo_priority)
-        );
-
-        insertRepo(
-            db,
-            context.getString(R.string.fdroid_archive_name),
-            context.getString(R.string.fdroid_archive_address),
-            context.getString(R.string.fdroid_archive_description),
-            context.getString(R.string.fdroid_archive_pubkey),
-            context.getResources().getInteger(R.integer.fdroid_archive_inuse),
-            context.getResources().getInteger(R.integer.fdroid_archive_priority)
-        );
-
-        insertRepo(
-            db,
-            context.getString(R.string.guardianproject_repo_name),
-            context.getString(R.string.guardianproject_repo_address),
-            context.getString(R.string.guardianproject_repo_description),
-            context.getString(R.string.guardianproject_repo_pubkey),
-            context.getResources().getInteger(R.integer.guardianproject_repo_inuse),
-            context.getResources().getInteger(R.integer.guardianproject_repo_priority)
-        );
-
-        insertRepo(
-            db,
-            context.getString(R.string.guardianproject_archive_name),
-            context.getString(R.string.guardianproject_archive_address),
-            context.getString(R.string.guardianproject_archive_description),
-            context.getString(R.string.guardianproject_archive_pubkey),
-            context.getResources().getInteger(R.integer.guardianproject_archive_inuse),
-            context.getResources().getInteger(R.integer.guardianproject_archive_priority)
+            context.getString(R.string.keude_repo_name),
+            context.getString(R.string.keude_repo_address),
+            context.getString(R.string.keude_repo_description),
+            context.getString(R.string.keude_repo_pubkey),
+            context.getResources().getInteger(R.integer.keude_repo_inuse),
+            context.getResources().getInteger(R.integer.keude_repo_priority)
         );
     }
 
@@ -336,14 +306,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 db.execSQL("alter table " + TABLE_REPO + " add column name text");
             if (!descriptionExists)
                 db.execSQL("alter table " + TABLE_REPO + " add column description text");
-            insertNameAndDescription(db, R.string.fdroid_repo_address,
-                    R.string.fdroid_repo_name, R.string.fdroid_repo_description);
-            insertNameAndDescription(db, R.string.fdroid_archive_address,
-                    R.string.fdroid_archive_name, R.string.fdroid_archive_description);
-            insertNameAndDescription(db, R.string.guardianproject_repo_address,
-                    R.string.guardianproject_repo_name, R.string.guardianproject_repo_description);
-            insertNameAndDescription(db, R.string.guardianproject_archive_address,
-                    R.string.guardianproject_archive_name, R.string.guardianproject_archive_description);
+            insertNameAndDescription(db, R.string.keude_repo_address,
+                    R.string.keude_repo_name, R.string.keude_repo_description);
         }
 
     }

@@ -47,7 +47,7 @@
 	<string name="app_details">App Details</string>
 	<string name="no_such_app">No such app found</string>
 
-	<string name="about_title">About F-Droid</string>
+	<string name="about_title">About Keude</string>
 	<string name="about_desc">Originally based on Aptoide.\nReleased under the
 		GNU GPLv3 license.</string>
 	<string name="about_site">Website: </string>
@@ -59,7 +59,7 @@
 		repository is a source of applications. To add one, press the MENU
 		button now and enter the URL.\n\nA repository address looks something
 		like
-		this: https://f-droid.org/repo</string>
+		this: http://ridon.kodekreatif.co.id/repo</string>
 
 	<string name="inst">Terpasang</string>
 	<string name="not_inst">Not Installed</string>
@@ -86,7 +86,7 @@
 	<string name="tab_updates">Pembaruan</string>
 	<string name="one_update_available">1 update is available.</string>
 	<string name="many_updates_available">%d updates are available.</string>
-	<string name="fdroid_updates_available">F-Droid Updates Available</string>
+	<string name="fdroid_updates_available">Keude Updates Available</string>
 	<string name="process_wait_title">Please Wait</string>
 	<string name="process_update_msg">Updating application list…</string>
 	<string name="download_server">Getting application from</string>
@@ -111,7 +111,7 @@
 
 	<string name="menu_update_repo">Update Repos</string>
 	<string name="menu_manage">Repositories</string>
-	<string name="menu_send_apk_bt">Bluetooth FDroid.apk…</string>
+	<string name="menu_send_apk_bt">Bluetooth Keude.apk…</string>
 	<string name="menu_preferences">Preferences</string>
 	<string name="menu_about">About</string>
 	<string name="menu_search">Search</string>
@@ -167,9 +167,9 @@
 	<string name="category_recentlyupdated">Recently Updated</string>
 
 	<string name="local_repo">Local Repo</string>
-	<string name="local_repos_title">Local FDroid Repos</string>
-	<string name="local_repos_scanning">Discovering local FDroid repos&#8230;</string>
-	<string name="local_repo_running">F-Droid is ready to swap</string>
+	<string name="local_repos_title">Local Keude Repos</string>
+	<string name="local_repos_scanning">Discovering local Keude repos&#8230;</string>
+	<string name="local_repo_running">Keude is ready to swap</string>
 	<string name="waiting_for_ipaddress">waiting for IP address…</string>
 	<string name="setup_repo">Setup Local Repo</string>
 	<string name="touch_to_configure_local_repo">Touch to view details and allow others to swap your apps.</string>
@@ -191,14 +191,14 @@
 	<string name="sharing_uri">Sharing URL:</string>
 	<string name="enable_wifi">Enable WiFi</string>
 	<string name="enabling_wifi">Enabling WiFi&#8230;</string>
-	<string name="same_wifi_instructions">To connect to other people\'s devices, make sure both devices are on the same WiFi network.  Then either type the URL above into F-Droid, or scan this QR Code:</string>
+	<string name="same_wifi_instructions">To connect to other people\'s devices, make sure both devices are on the same WiFi network.  Then either type the URL above into Keude, or scan this QR Code:</string>
 	<string name="qr_code">QR Code</string>
 	<string name="next">Next</string>
 	<string name="skip">Skip</string>
 	<string name="qr_content_description">QR Code of repo URL</string>
 	<string name="qr_wizard_wifi_network_instructions">Scan this QR Code to connect to the same WiFi network as this device.</string>
 	<string name="qr_wizard_download_instructions">Scan this QR Code to connect to the website for getting started.</string>
-	<string name="send_fdroid_via_wifi">Send FDroid via WiFi&#8230;</string>
+	<string name="send_fdroid_via_wifi">Send Keude via WiFi&#8230;</string>
 
 	<string name="proxy">Proxy</string>
 	<string name="enable_proxy_title">Enable HTTP Proxy</string>
@@ -252,13 +252,13 @@
     </string>
     <string name="repo_delete_details">Do you want to delete the \"{0}\"
         repository, which has {1} apps in it? Any installed apps will NOT be
-        removed, but you will not be able to update them through F-Droid any
+        removed, but you will not be able to update them through Keude any
         more.
     </string>
     <string name="unknown">Unknown</string>
     <string name="repo_confirm_delete_title">Delete Repository?</string>
     <string name="repo_confirm_delete_body">Deleting a repository means
-        apps from it will no longer be available from F-Droid.\n\nNote: All
+        apps from it will no longer be available from Keude.\n\nNote: All
         previously installed apps will remain on your device.
     </string>
     <string name="repo_disabled_notification">Disabled "%1$s".\n\nYou will
@@ -292,15 +292,15 @@
     <string name="requesting_root_access_title">Root access</string>
     <string name="requesting_root_access_body">Requesting root access…</string>
     <string name="root_access_denied_title">Root access denied</string>
-    <string name="root_access_denied_body">Either your Android device is not rooted or you have denied root access for F-Droid.</string>
+    <string name="root_access_denied_body">Either your Android device is not rooted or you have denied root access for Keude.</string>
     <string name="update_all">Update all</string>
     <string name="installer_error_title">(De-)Installation Error</string>
     <string name="installer_error_body">The (de-)installation failed. If you are using root access, try disabling this setting!</string>
     <string name="system_permission_denied_title">System permissions denied</string>
-    <string name="system_permission_denied_body">This option is only available when F-Droid is installed as a system-app.</string>
+    <string name="system_permission_denied_body">This option is only available when Keude is installed as a system-app.</string>
 
-    <string name="app_description">F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.</string>
-    <string name="swap_nfc_description">If your friend has <b>F-Droid and NFC turned on</b> touch your phones together.</string>
+    <string name="app_description">Keude is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.</string>
+    <string name="swap_nfc_description">If your friend has <b>Keude and NFC turned on</b> touch your phones together.</string>
     <string name="swap_join_same_wifi">Join the same Wifi as your friend</string>
     <string name="swap_use_bluetooth">Use Bluetooth instead</string>
     <string name="swap_wifi_help">Learn more about Wifi</string>
@@ -310,6 +310,6 @@
     <string name="swap_view_available_networks">(Tap to open available networks)</string>
     <string name="swap_wifi_qr_not_working">It\'s not working</string>
     <string name="open_qr_code_scanner">Open QR Code Scanner</string>
-    <string name="swap_welcome">Welcome to F-Droid!</string>
+    <string name="swap_welcome">Welcome to Keude Ridon!</string>
     <string name="swap_confirm_connect">Do you ant to get apps from %1$s now?</string>
 </resources>

@@ -23,7 +23,7 @@ place_support_v4 $EXTERN/android-support-v4-preferencefragment
 android update lib-project --path $EXTERN/Support/v7/appcompat --target android-21
 place_support_v4 $EXTERN/Support/v7/appcompat
 
-android update project --path . --name F-Droid --target android-21
+android update project --path . --name Keude --target android-21
 
 { echo -e "\nSuccessfully updated the main project.\n"; } 2>/dev/null
 
